@@ -1,0 +1,6 @@
+En esta pregunta, se nos plantea un algoritmo para determinar si n es un numero primo o no.
+Asi, se plantea la division de dicho numero, entre divisores ascendentes, empezando por el 2; en caso la division sea exacta, retornamos falso, dado que dicho numero es divisible por otro numero ademas del 1 y sigo mismo.
+Por otro lado, si el numero, no es divisible por ninguno de los divisores planteados, retornamos verdadero, ya que este seria primo.
+Para saber cuando dejar de seguir aumentando el contador, hacemos uso de una de las propiedades del teorema fundamental de la aritmética. El cual nos dice que el maximo divisor primo que podria tener dicho numero esta por debajo de su raiz cuadrada.
+En el algoritmo, para asegurarnos de esto, sacamos la raiz cuadrada de dicho numero, la redondeamos hacia arriba y paramos de comparar cuando nuestro divisor sea mayor que esta.
+
