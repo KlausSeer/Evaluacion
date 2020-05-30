@@ -1,0 +1,2 @@
+Una solución, si no tenemos acceso a los enemigos en el mundo, puede ser la de definir un atributo nextEnemy en la clase Enemy, de tal forma que el rayo rebotaria directamente en nextEnemy para cualquier enemigo.
+En caso de no poder añadir nuevos atributos, podemos aprovechar las funciones de FindObjectOfType para hallar al siguiente enemigo, pero filtrandolo con la lista de nombres para saber que no estamos repitiendo.
